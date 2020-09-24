@@ -2,9 +2,12 @@ import React from 'react';
 import './App.css';
 
 function App() {
+  const buttonText = "Click Me!"
   return (
     <div className="App">
-      Hello World!
+      <label for="name">Name: </label>
+      <input id="name" type="text" /><br />
+      <button type="submit">{buttonText}</button>
     </div>
   );
 }
